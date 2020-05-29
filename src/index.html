@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600&family=Montserrat:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <title>Drag And Drop - By Rocketseat</title>
+</head>
+<body>
+    <h1>Example Drag And Drop (By Rocketseat - Mayk Brito)</h1>
+
+   <div class="boards">
+
+        <div class=board>
+            <h3><div class="categoryColor gray"></div>To Do</h3>
+                <div class="dropzone">
+                    <div class='card' draggable="true">
+                        <div class="status gray"></div>
+                        <div class="content"> Do Videos</div>
+                    </div>
+                </div>
+       </div>
+
+       <div class=board>
+            
+            <h3><div class="categoryColor yellow"></div> In Progress</h3>
+                <div class="dropzone">
+                    <div class='card' draggable="true">
+                        <div class="status yellow"></div>
+                        <div class="content">Forum</div>
+                    </div>
+                </div>
+        </div>
+
+    <div class=board>   
+        <h3><div class="categoryColor green"></div>Done</h3>
+            <div class="dropzone">
+                <div class='card' draggable="true">
+                    <div class="status green"></div>
+                    <div class="content">Next Level Week</div>
+                </div>
+            </div>
+        </div>
+   </div>
+    
+   <script src="index.js"></script>
+</body>
+</html>
