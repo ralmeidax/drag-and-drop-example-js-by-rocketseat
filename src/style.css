@@ -1,0 +1,108 @@
+html {
+    font-family: 'Hind Siliguri';
+}
+
+body {
+    background-color: #1A1A1C;
+    color: white;
+}
+
+.boards {
+    display: flex;
+    justify-content: space-between;
+    
+    margin-top: 32px;
+}
+
+.board {
+    border: 1px solid #1A1A1C;
+    border-radius: 4px;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.541);
+    margin: 0 16px;
+}
+
+.board h3 {
+    background: rgb(126, 41, 5);
+    background: linear-gradient(90deg, rgba(36,11,0,0.9584033442478554) 0%, rgba(0,0,0,1) 35%, rgba(255,64,0,1) 100%);
+    display: flex;
+    padding: 16px;
+    margin:0;
+    color: #FD951Fcc;
+}
+
+.dropzone {
+    padding: 16px;
+    background:rgb(20, 20, 20);
+    min-width: 282px;
+    min-height: 300px;
+}
+
+.card {
+    background-color: #1A1A1C;
+    padding: 16px;
+    box-shadow: 0 2px 2px -1px #FD951Fcc;
+    width: 250px;
+    margin: 25px 0;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.status {
+    width: 30px;
+    height: 8px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+}
+
+.status.gray {
+    border-style: dotted;
+    border-width: 2px;
+    
+}
+
+.status.green {
+    background: green ;
+}
+
+.status.yellow {
+    background: yellow;
+}
+
+.categoryColor {
+    width: 16px;
+    height: 16px;
+    border-radius: 16px;
+    margin-top: 6px;
+    margin-right: 4px;
+}
+
+.categoryColor.gray {
+    border-style: dotted;
+    border-width: 2px;
+}
+
+.categoryColor.green {
+    background: green ;
+}
+
+.categoryColor.yellow {
+    background: yellow;
+}
+
+.highlight {
+    background-color: rgb(71, 69, 69);
+}
+
+.card, .dropzone {
+    transition: 400ms;
+}
+
+.is-dragging{
+    cursor: move;
+    opacity: 0.3;
+}
+
+.over {
+    background-color: orangered;
+}

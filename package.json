@@ -1,0 +1,20 @@
+{
+  "name": "drag-and-drop-example-js-by-rocketseat",
+  "version": "1.0.0",
+  "description": "Exemplo da Rocketseat (by Mayk Brito) de como criar cards Drag And Drop (Arrastar e Soltar)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ralmeidax/drag-and-drop-example-js-by-rocketseat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ralmeidax/drag-and-drop-example-js-by-rocketseat/issues"
+  },
+  "homepage": "https://github.com/ralmeidax/drag-and-drop-example-js-by-rocketseat#readme"
+}
